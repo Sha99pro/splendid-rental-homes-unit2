@@ -33,6 +33,8 @@ public class User {
     public Long getId() {
         return id;
     }
+    public void setId(int id) {
+    }
 
     public String getFirstName() {
         return firstName;
@@ -81,4 +83,6 @@ public class User {
     public void setRole(String role) {
         this.role = role;
     }
+
+
 }
